@@ -6,3 +6,9 @@ def read_yaml(path_to_yaml:str) -> dict:
         content = yaml.safe_load(yaml_file)
     
     return content
+
+def create_dirs(dirs: list):
+
+    for dir in dirs:
+        os.makedirs(dir, exist_ok=True)
+        print(f"Directory is created at {dir}")
