@@ -9,4 +9,8 @@ artifacts:
   train_file: train.csv
   test_file: test.csv
 
+  model_dir: model
+  model_name: elasticNet.model
+
+
   
