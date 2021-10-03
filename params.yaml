@@ -1,0 +1,4 @@
+base:
+  random_state: 42
+  split_ratio: 0.3
+
